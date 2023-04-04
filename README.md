@@ -29,5 +29,7 @@ The dataset used was "Are Emily and Greg more Employable Than Lakisha and Jamal?
 - The first progress report of the project
 4. [Progress Report II](https://docs.google.com/document/d/108M0wLdQiOF7K5FFVj-S00tUYHWcNk2hG2XqdWcOViA/edit?usp=sharing)
 - The second progress report of the project
-5. [Google Slides Presentation](https://docs.google.com/presentation/d/16DxqbRHsyeIE89nNYmpqJasW6NoCpZBYPX7kiCMIZeY/edit?usp=sharing) 
+- 5. [Final Progress Report](https://docs.google.com/document/d/1Mi7Ru9ILAZb9wdfisHsNohmQN30KriwUPYgQHF5Qjk4/edit?usp=sharing)
+- - The final report of the project
+6. [Google Slides Presentation](https://docs.google.com/presentation/d/16DxqbRHsyeIE89nNYmpqJasW6NoCpZBYPX7kiCMIZeY/edit?usp=sharing) 
 - The presentation was originally made in google slides before being converted into a powerpoint for sake of ease for the professor
