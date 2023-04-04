@@ -1,2 +1,2 @@
-# M448-Project
-What's in a Name
+# What's in a Name
+## Math 448 Course Project
