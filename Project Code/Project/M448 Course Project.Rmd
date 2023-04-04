@@ -1,0 +1,65 @@
+---
+title: "M448 Course Project"
+author: "Gabrielle Salamanca"
+date: "3/9/2022"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+```{r}
+#calling libraries
+library(caret)
+library(ggplot2)
+
+#calling dataset
+Rnames = read.csv("C:/Users/knigh/OneDrive/Documents/Resume Names.csv", header=T, na.strings="?", stringsAsFactors = T)
+
+
+#checking out the specs
+dim(Rnames)
+names(Rnames)
+summary(Rnames)
+```
+
+## Including Plots
+
+```{r}
+#industry variable
+pie(table(Rnames$industry))
+
+#ethnicity variable
+colors = c("purple", "white")
+ethnic <- c("African-American", "Caucasian")
+pie(table(Rnames$ethnicity), col = colors, labels = ethnic)
+
+#call variable
+colors = c("red", "green")
+pie(table(Rnames$call),col = colors)
+
+#gender variable
+colors = c("mediumvioletred", "midnightblue")
+pie(table(Rnames$gender),col = colors)
+
+#plots w/ x = call
+ggplot(Rnames, aes(x = call, fill = ethnicity)) + geom_bar(position = "fill")
+ggplot(Rnames, aes(x = call, fill = gender)) + geom_bar(position = "fill")
+ggplot(Rnames, aes(x = call, fill = industry)) + geom_bar(position = "fill")
+ggplot(Rnames, aes(x = call, fill = quality)) + geom_bar(position = "fill")
+#plots w/ other x
+ggplot(Rnames, aes(x = ethnicity, fill = gender)) + geom_bar(position = "fill")
+ggplot(Rnames, aes(x = quality, fill = holes)) + geom_bar(position = "fill")
+ggplot(Rnames, aes(x = quality, fill = call)) + geom_bar(position = "fill")
+#plots w/ x = equal
+ggplot(Rnames, aes(x = equal, fill = industry)) + geom_bar(position = "fill")
+ggplot(Rnames, aes(x = equal, fill = call)) + geom_bar(position = "fill")
+ggplot(Rnames, aes(x = equal, fill = gender)) + geom_bar(position = "fill")
+ggplot(Rnames, aes(x = equal, fill = ethnicity)) + geom_bar(position = "fill")
+#pairs
+Names = subset(Rnames, select = -c(X, name, city, holes, email, equal, wanted, industry))
+pairs(Names)
+```
