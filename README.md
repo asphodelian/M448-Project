@@ -8,7 +8,10 @@ The dataset used was "Are Emily and Greg more Employable Than Lakisha and Jamal?
 ## Within the Repo
 1. Plots
 - This hold all the R plots I have made for this project
-- It's seprated by the original dataset and the edited dataset
+- It's separated by the original dataset and the edited dataset
+2. Presentation
+- This holds all the presentations I've made for this project (new & old)
+- You'll find a pdf and two pptx here
 2. Project Code
 - This holds all the coding files I have made for the project
 - There are glm fits, progress report versions, project code, visuals
@@ -17,7 +20,7 @@ The dataset used was "Are Emily and Greg more Employable Than Lakisha and Jamal?
 - This holds all the turned-in documents for the project
 4. M448 Names
 - the pdf version of the presentation
-- the powerpoint version of the presentation
+- the PowerPoint version of the presentation
 5. ReadME
 - What you're reading now!
 ## Links
@@ -32,4 +35,6 @@ The dataset used was "Are Emily and Greg more Employable Than Lakisha and Jamal?
 5. [Final Progress Report](https://docs.google.com/document/d/1Mi7Ru9ILAZb9wdfisHsNohmQN30KriwUPYgQHF5Qjk4/edit?usp=sharing)
 - The final report of the project
 6. [Google Slides Presentation](https://docs.google.com/presentation/d/16DxqbRHsyeIE89nNYmpqJasW6NoCpZBYPX7kiCMIZeY/edit?usp=sharing) 
-- The presentation was originally made in google slides before being converted into a powerpoint
+- The presentation was originally made in google slides before being converted into a PowerPoint
+7. [Updated Google Slides Presentation](https://docs.google.com/presentation/d/1XkJZQHmRUbqhjCVVziqkcwVgwSWUh_PTV_NQQUeQ4-E/edit?usp=sharing)
+- The updated version of the presentation for 2024
